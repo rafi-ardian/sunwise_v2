@@ -1,21 +1,19 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static const Color primaryColor =
-      Color(0xFF6200EE); // Warna utama untuk tema light
-  static const Color primaryDarkColor =
-      Color(0xFFBB86FC); // Warna utama untuk tema dark
-  static const Color secondaryColor = Color(0xFF03DAC6); // Warna sekunder
-  static const Color errorColor = Color(0xFFB00020); // Warna untuk error
-  static const Color backgroundColor =
-      Colors.white; // Latar belakang untuk tema light
-  static const Color darkBackgroundColor =
-      Color(0xFF121212); // Latar belakang untuk tema dark
+  static const Color primaryColor = Color(0xFF6200EE);
+  static const Color primaryDarkColor = Color(0xFFBB86FC);
+  static const Color secondaryColor = Color(0xFF03DAC6);
+  static const Color errorColor = Color(0xFFB00020);
+  static const Color backgroundColor = Colors.white;
+  static const Color darkBackgroundColor = Color(0xFF121212);
 
   static const Color whiteColor = Color(0xFFFFFFFF);
   static const Color whiteColorFA = Color(0xFFFAFAFA);
   static const Color whiteColorF5 = Color(0xFFF5F5F5);
   static const Color greyColorBC = Color(0xFFBCBCBC);
+  static const Color greyColorC2 = Color(0xFFC2C2C2);
+  static const Color greyColorD1 = Color(0xFFD1D1D6);
   static const Color purpleColor = Color(0xFF5356E5);
   static const Color purpleGradientColorTop = Color(0xFF5D55A4);
   static const Color purpleGradientColorBottom = Color(0xFF23203E);
